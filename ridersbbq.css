@@ -1,0 +1,117 @@
+body{
+    color: #303030;
+    background-color: #E5E5E5;
+    font-family: 'Concert One', cursive;
+}
+
+section{
+
+}
+
+.ribs{
+    display: inline-block;
+    max-width: 60%;
+    margin: 0 20%;
+}
+
+.restaurant{
+    display: none;
+    max-width: 60%;
+    margin: 0 20%;
+}
+
+.guy{
+    border-radius: 40%;
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+h3{
+    color: #8C000B;
+}
+
+h1{
+    display: flex;
+    color: #8C000B;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navul{
+    text-align: end;
+}
+
+.navli{
+    display: flex;
+    list-style-type: none;
+    border-right: 3px solid #A3000D;
+    margin: 10px;
+    padding-right: 10px;
+    justify-content: flex-end;
+}
+
+.reviewsli{
+    margin: 5px;
+}
+
+@media only screen and (min-width: 768px){
+
+    .guy{
+        border-radius: 40%;
+        max-width: 300px;
+        max-height: 300px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .img{
+        align-content: center;
+        max-height: 400px;
+        max-width: 50%;
+        display: inline-block;
+        margin: 0 20%;
+    }
+
+    .ribsimg{
+        display: inline-block;
+        max-height: 300px;
+        max-width: 50%;
+    }
+
+    .restaurant{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .ribs{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .navul{
+        display: flex;
+        padding-bottom: 0;
+    }
+
+    .navli{
+        border-right: none;
+        border-bottom: 3px solid #A3000D;
+        padding-bottom: 10px;
+        justify-content: end;
+        height: 20px;
+        font-size: 24px;
+   }
+
+   p{
+       padding: 20px;
+       margin: 10px;
+       text-align: center;
+   }
+
+}
